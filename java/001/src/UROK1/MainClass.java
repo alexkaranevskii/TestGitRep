@@ -5,6 +5,8 @@ public class MainClass {
         Dog labrador = new Dog();
         labrador.name ="Шарик";
         labrador.beast ="Лабрадор";
-        System.out.println( labrador.name);
+        labrador.color ="бежевый";
+        labrador.age = 7;
+        System.out.println(labrador.beast+ " " + labrador.name + " цвет " + labrador.color + " " + labrador.age +" лет ");
     }
 }
