@@ -1,6 +1,6 @@
 package Lesson1.HomeWork1;
 
-public class Wall {
+public class Wall implements Obstacle{
     private  final int height;
 
     public Wall(int height){
@@ -11,7 +11,7 @@ public class Wall {
     //
     @Override
     public boolean passObstacleBy(Participant participant){
-        if (participant.run() > height){
+        if (participant.jump() > height){
             System.out.println("Участник " + participant + " Успешно перепрыгнул стену");
             return true;
         }

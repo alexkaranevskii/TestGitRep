@@ -1,6 +1,6 @@
 package Lesson1.HomeWork1;
 
-public class Track {
+public class Track implements Obstacle {
 
     private  final int lenght;
 
